@@ -88,7 +88,7 @@ class ipset (
       }
     }
     default: {
-      fail('The ipset module only supports systemd and RedHat 6 based distributions')
+      notice('The ipset module only supports systemd and RedHat 6 based distributions')
     }
   }
 
